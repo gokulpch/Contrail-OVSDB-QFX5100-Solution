@@ -73,10 +73,6 @@ TOR Agent receives the configuration relevant to the TOR switch. It translates t
 * scp vtep-privkey.pem root@tor-ip:/var/db/certs
 * cacert.pem file will be available in /var/lib/openvswitch/pki/switchca, when the above are done. This is the file to be provided in the above testbed (for ca_cert_file).
 >
- 
-#### Caveats
-
-It is not possible to configure both tagged and untagged logical ports on the same QFX physical port via OVSDB. So, this configuration should not be done.
 
 #### Debug
 
